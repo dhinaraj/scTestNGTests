@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My First Test" parallel="classes" thread-count="2">
+	<!-- <parameter name="appURL" value="https://demometalk.plus65.local/admin/login"/> -->
+	<parameter name="adminURL" value="https://demometalk.plus65.local/admin/login" />
+	<parameter name="memberURL" value="https://demometalk.plus65.local/admin/login" />
+	<parameter name="browserType" value="firefox" />
+	<test name="Test">
+		 <classes>
+
+          <!--   <class name="testsMemberPortal.SampleTest1" />
+            <class name="testsMemberPortal.SampleTest2" />
+            <class name="testsMemberPortal2.SampleTest1" />
+            <class name="testsMemberPortal2.SampleTest2" /> 
+            <class name="testsAdminPortal.AdminBasePageTest" 
+              
+                -->
+            
+            <class name="testsMemberPortal.SponsorBonusTests" />
+            <class name="testsMemberPortal.SponsorBonusTests2"/>
+            <class name="testsMemberPortal.SponsorBonusTests3"/>
+         
+        </classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
